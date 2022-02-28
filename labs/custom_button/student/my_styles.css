@@ -15,5 +15,16 @@ Implementa una regla para el elemento <p> considerando variantes a los siguiente
 
 */
 p {
-    font-family:'Lucida Sans'
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(3, 83, 255);
+    background: rgba(68, 179, 253, 0.815);
+    color: rgb(255, 6, 234);
+    box-shadow: 2px 2px 4px rgba(75, 198, 255, 0.4);
+    border-radius: 15px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
 }
